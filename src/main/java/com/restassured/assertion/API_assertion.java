@@ -83,7 +83,7 @@ public class API_assertion
 				
 				key=itr.next();
 				//System.out.println(x.contains(itr.next()));
-				if(APIResponse.contains('"'+key+'"'))
+				if(APIResponse.contains(key))
 				{
 					continue;
 				}
