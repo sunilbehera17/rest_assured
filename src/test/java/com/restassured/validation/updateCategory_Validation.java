@@ -85,22 +85,7 @@ public class updateCategory_Validation extends CommonPage
 		
 	  }
 	  
-	  /*public updateCategory_Validation updateCategoryArrayVerification()
-	  {
-		  JSONObject inputJSONObject = new JSONObject(updateCategory.updateCategory_valid_Inputs());
-		  hash_Set = InsertValue("templateList","template_trans","field_trans");
-		  
-		  
-		  Iterator<String> itr = hash_Set.iterator();
-			while(itr.hasNext())
-			{
-				//System.out.println(itr.next());
-				JE.getKeyDatatype(inputJSONObject,itr.next(),"Array");
-			
-			}
-			return this;
-	  }
-	  */
+	  
 	  public updateCategory_Validation updateCategoryJsonVerification()
 	  {
 		  JSONObject inputJSONObject = new JSONObject(updateCategory.updateCategory_valid_Inputs());
