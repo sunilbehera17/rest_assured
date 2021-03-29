@@ -21,7 +21,7 @@ import com.google.gson.JsonObject;
 import com.restassured.assertion.JsonExtract;
 import com.restassured.productPage.CommonPage;
 import com.restassured.productPage.campaignAddPage;
-import com.restassured.productPage.getCampaignPage;
+
 import com.restassured.utils.ExtentReportListner;
 
 
